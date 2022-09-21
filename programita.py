@@ -11,7 +11,7 @@ input()
 d1 = input('Frente Atlético: Todos los momentos que viví, todas las canchas donde te seguí...\nKoke: Como puedes ver, tenemos un ambientazo en los alrededores del estadio. Yo tengo que entrar a calentar. ¿Vienes o te quedas?\nTú: ')
 
 if d1 == 'voy' or d1 == 'Voy':
-    print('.\n.\n.\n.\n.\nLlegas a tu asiento, empieza el partido y hay un seguidor del', equipo_aleatorio, 'que no para de criticar al Atleti.')
+    print('.\n.\n.\n.\n\nLlegas a tu asiento, empieza el partido y hay un seguidor del', equipo_aleatorio, 'que no para de criticar al Atleti.')
     d2 = input('¿Le dices algo o le ignoras?\n')
     if d2 == 'Le digo algo' or d2 == 'le digo algo':
         print('Asustas al aficionado rival y termina cambiándose de sitio.')
@@ -21,12 +21,12 @@ if d1 == 'voy' or d1 == 'Voy':
         if d3 >= precio:
             print('Aficionado atlético: Hecho.')
             input()
-            print('.\n.\n.\n.\n.\n.')
+            print('.\n.\n.\n.\n.\n')
             jugadores = ['Joao', 'Grizzi', 'Hermoso', 'Oblak', 'Carrasco', 'Reinildo', 'Cunha']
             jugador_aleatorio = random.choice(jugadores)
             print('El aficionado atlético salta al campo y se saca una foto con', jugador_aleatorio, '.\nA continuación, le detiene la policía, te delata y acabais los dos en el calabozo mientras te enseña la foto que se ha hecho.')
         else:
-            print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n.\nDespiertas en el hospital.')
+            print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n\nDespiertas en el hospital.')
     else:
         print('El aficionado termina callándose y veis la primera parte del partido tranquilamente.')
         input()
@@ -35,12 +35,12 @@ if d1 == 'voy' or d1 == 'Voy':
         if d3 >= precio:
             print('Aficionado atlético: Hecho.')
             input()
-            print('.\n.\n.\n.\n.\n.')
+            print('.\n.\n.\n.\n.\n')
             jugadores = ['Joao', 'Grizzi', 'Hermoso', 'Oblak', 'Carrasco', 'Reinildo', 'Cunha']
             jugador_aleatorio = random.choice(jugadores)
             print('El aficionado atlético salta al campo y se saca una foto con', jugador_aleatorio, '.\nA continuación, le detiene la policía, te delata y acabais los dos en el calabozo mientras te enseña la foto que se ha hecho.')
         else:
-            print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n.\nDespiertas en el hospital.')
+            print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n\nDespiertas en el hospital.')
 else:
     d2 = input('Te unes a un grupo de aficionados atléticos y comienzas a cantar con ellos. Se te acerca un policía.\nPolicía: ¿De qué equipo eres?\nTú: ')
     if d2 == 'Del atleti' or d2 == 'del atleti' or d2 == 'Del atlético de madrid' or d2 == 'Del Atlético de Madrid' or d2 == 'del atletico' or d2 == 'del atlético':
@@ -56,12 +56,12 @@ else:
             if d4 >= precio:
                 print('Aficionado atlético: Hecho.')
                 input()
-                print('.\n.\n.\n.\n.\n.')
+                print('.\n.\n.\n.\n.\n')
                 jugadores = ['Joao', 'Grizzi', 'Hermoso', 'Oblak', 'Carrasco', 'Reinildo', 'Cunha']
                 jugador_aleatorio = random.choice(jugadores)
                 print('El aficionado atlético salta al campo y se saca una foto con', jugador_aleatorio, '\nA continuación, le detiene la policía, te delata y acabais los dos en el calabozo mientras te enseña la foto que se ha hecho.')
             else:
-                print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n.\nDespiertas en el hospital.')
+                print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n\nDespiertas en el hospital.')
         else:
             print('El aficionado termina callándose y veis la primera parte del partido tranquilamente.')
             input()
@@ -70,12 +70,12 @@ else:
             if d4 >= precio:
                 print('Aficionado atlético: Hecho.')
                 input()
-                print('.\n.\n.\n.\n.\n.')
+                print('.\n.\n.\n.\n.\n')
                 jugadores = ['Joao', 'Grizzi', 'Hermoso', 'Oblak', 'Carrasco', 'Reinildo', 'Cunha']
                 jugador_aleatorio = random.choice(jugadores)
                 print('El aficionado atlético salta al campo y se saca una foto con', jugador_aleatorio, '\nA continuación, le detiene la policía, te delata y acabais los dos en el calabozo mientras te enseña la foto que se ha hecho.')
             else:
-                print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n.\nDespiertas en el hospital.')
+                print('Aficionado atlético: ¿De que vas?\nEl aficionado atlético llama a sus amigos y te dan una paliza.\n.\n.\n.\n\nDespiertas en el hospital.')
     else:
         print('Policía: Pues quedas arrestado por idiota.\nTe llevan al calabozo por no ser del atleti.')
 
