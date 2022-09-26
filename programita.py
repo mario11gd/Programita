@@ -4,7 +4,7 @@ nombre = input('Koke: ¡Hola colchonero! ¿Cómo te llamas?\nTú: ')
 equipos = ['FC Barcelona', 'Real Madrid', 'Rayo Vallecano']
 equipo_aleatorio = random.choice(equipos)
 
-print('Koke: Bienvenido al Civitas Metropolitano,', nombre,', estamos encantados de que un atlético como tú haya decidido acudir a nuestro estadio. \nHoy jugamos contra el',equipo_aleatorio,', así que esperamos presenciar un partidazo. Vamos a acercarnos a la puerta de entrada.')
+print('Koke: Bienvenido al Civitas Metropolitano,', nombre,', estamos encantados de que un atlético como tú haya decidido acudir a nuestro estadio. \nHoy jugamos contra el',equipo_aleatorio,', así que esperamos presenciar un gran partido. Vamos a acercarnos a la puerta de entrada.')
 
 input()
 
